@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A4E084C4BBE00CAA5D8FBE /* libPods-BabyNappy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A96205CECC644F7613FB5653 /* libPods-BabyNappy.a */; };
+		B65A04981ECECB5E0099EF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A04971ECECB5E0099EF2F /* main.m */; };
+		B65A049B1ECECB5E0099EF2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A049A1ECECB5E0099EF2F /* AppDelegate.m */; };
+		B65A049E1ECECB5F0099EF2F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A049D1ECECB5F0099EF2F /* FirstViewController.m */; };
+		B65A04A11ECECB5F0099EF2F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A04A01ECECB5F0099EF2F /* SecondViewController.m */; };
+		B65A04A41ECECB5F0099EF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A04A21ECECB5F0099EF2F /* Main.storyboard */; };
+		B65A04A61ECECB5F0099EF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65A04A51ECECB5F0099EF2F /* Assets.xcassets */; };
+		B65A04A91ECECB5F0099EF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A04A71ECECB5F0099EF2F /* LaunchScreen.storyboard */; };
+		B65A04B61ECECCE70099EF2F /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A04B51ECECCE70099EF2F /* BaseModel.m */; };
+		B65A04B91ECECD250099EF2F /* CommUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A04B81ECECD250099EF2F /* CommUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61B1AAE6F4564AE8BE7B1BA2 /* Pods-BabyNappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyNappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyNappy/Pods-BabyNappy.release.xcconfig"; sourceTree = "<group>"; };
+		A96205CECC644F7613FB5653 /* libPods-BabyNappy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BabyNappy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A04931ECECB5E0099EF2F /* BabyNappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyNappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A04971ECECB5E0099EF2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B65A04991ECECB5E0099EF2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B65A049A1ECECB5E0099EF2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B65A049C1ECECB5E0099EF2F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B65A049D1ECECB5F0099EF2F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B65A049F1ECECB5F0099EF2F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B65A04A01ECECB5F0099EF2F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B65A04A31ECECB5F0099EF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65A04A51ECECB5F0099EF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65A04A81ECECB5F0099EF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65A04AA1ECECB5F0099EF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A04B41ECECCE70099EF2F /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		B65A04B51ECECCE70099EF2F /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		B65A04B71ECECD250099EF2F /* CommUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommUtil.h; sourceTree = "<group>"; };
+		B65A04B81ECECD250099EF2F /* CommUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommUtil.m; sourceTree = "<group>"; };
+		FE1BAB72B093E16CDE930C99 /* Pods-BabyNappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyNappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyNappy/Pods-BabyNappy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65A04901ECECB5E0099EF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A4E084C4BBE00CAA5D8FBE /* libPods-BabyNappy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAABB3B86CDB7DBC6ADA52C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A96205CECC644F7613FB5653 /* libPods-BabyNappy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A9EE3EFF9C094FD968C2315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BAB72B093E16CDE930C99 /* Pods-BabyNappy.debug.xcconfig */,
+				61B1AAE6F4564AE8BE7B1BA2 /* Pods-BabyNappy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B65A048A1ECECB5E0099EF2F = {
+			isa = PBXGroup;
+			children = (
+				B65A04951ECECB5E0099EF2F /* BabyNappy */,
+				B65A04941ECECB5E0099EF2F /* Products */,
+				9A9EE3EFF9C094FD968C2315 /* Pods */,
+				0BAABB3B86CDB7DBC6ADA52C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B65A04941ECECB5E0099EF2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65A04931ECECB5E0099EF2F /* BabyNappy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65A04951ECECB5E0099EF2F /* BabyNappy */ = {
+			isa = PBXGroup;
+			children = (
+				B65A04B21ECECBC80099EF2F /* Comm */,
+				B65A04B11ECECB9A0099EF2F /* Modules */,
+				B65A04B01ECECB920099EF2F /* AppDelegate */,
+				B65A04A21ECECB5F0099EF2F /* Main.storyboard */,
+				B65A04A51ECECB5F0099EF2F /* Assets.xcassets */,
+				B65A04A71ECECB5F0099EF2F /* LaunchScreen.storyboard */,
+				B65A04AA1ECECB5F0099EF2F /* Info.plist */,
+				B65A04961ECECB5E0099EF2F /* Supporting Files */,
+			);
+			path = BabyNappy;
+			sourceTree = "<group>";
+		};
+		B65A04961ECECB5E0099EF2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B65A04971ECECB5E0099EF2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B65A04B01ECECB920099EF2F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B65A04991ECECB5E0099EF2F /* AppDelegate.h */,
+				B65A049A1ECECB5E0099EF2F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B65A04B11ECECB9A0099EF2F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B65A049C1ECECB5E0099EF2F /* FirstViewController.h */,
+				B65A049D1ECECB5F0099EF2F /* FirstViewController.m */,
+				B65A049F1ECECB5F0099EF2F /* SecondViewController.h */,
+				B65A04A01ECECB5F0099EF2F /* SecondViewController.m */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B65A04B21ECECBC80099EF2F /* Comm */ = {
+			isa = PBXGroup;
+			children = (
+				B65A04B71ECECD250099EF2F /* CommUtil.h */,
+				B65A04B81ECECD250099EF2F /* CommUtil.m */,
+				B65A04B31ECECBF70099EF2F /* Base */,
+			);
+			name = Comm;
+			sourceTree = "<group>";
+		};
+		B65A04B31ECECBF70099EF2F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B65A04B41ECECCE70099EF2F /* BaseModel.h */,
+				B65A04B51ECECCE70099EF2F /* BaseModel.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65A04921ECECB5E0099EF2F /* BabyNappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65A04AD1ECECB5F0099EF2F /* Build configuration list for PBXNativeTarget "BabyNappy" */;
+			buildPhases = (
+				02C56A2BB6FC412E259CFF35 /* 📦 Check Pods Manifest.lock */,
+				B65A048F1ECECB5E0099EF2F /* Sources */,
+				B65A04901ECECB5E0099EF2F /* Frameworks */,
+				B65A04911ECECB5E0099EF2F /* Resources */,
+				AC68C0C2C2957B20913FC441 /* 📦 Embed Pods Frameworks */,
+				67387C565D0CACCCD309A849 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyNappy;
+			productName = BabyNappy;
+			productReference = B65A04931ECECB5E0099EF2F /* BabyNappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65A048B1ECECB5E0099EF2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hebert;
+				TargetAttributes = {
+					B65A04921ECECB5E0099EF2F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B65A048E1ECECB5E0099EF2F /* Build configuration list for PBXProject "BabyNappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65A048A1ECECB5E0099EF2F;
+			productRefGroup = B65A04941ECECB5E0099EF2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65A04921ECECB5E0099EF2F /* BabyNappy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65A04911ECECB5E0099EF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65A04A91ECECB5F0099EF2F /* LaunchScreen.storyboard in Resources */,
+				B65A04A61ECECB5F0099EF2F /* Assets.xcassets in Resources */,
+				B65A04A41ECECB5F0099EF2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C56A2BB6FC412E259CFF35 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67387C565D0CACCCD309A849 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyNappy/Pods-BabyNappy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC68C0C2C2957B20913FC441 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyNappy/Pods-BabyNappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65A048F1ECECB5E0099EF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65A04A11ECECB5F0099EF2F /* SecondViewController.m in Sources */,
+				B65A049B1ECECB5E0099EF2F /* AppDelegate.m in Sources */,
+				B65A049E1ECECB5F0099EF2F /* FirstViewController.m in Sources */,
+				B65A04B61ECECCE70099EF2F /* BaseModel.m in Sources */,
+				B65A04981ECECB5E0099EF2F /* main.m in Sources */,
+				B65A04B91ECECD250099EF2F /* CommUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B65A04A21ECECB5F0099EF2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65A04A31ECECB5F0099EF2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B65A04A71ECECB5F0099EF2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65A04A81ECECB5F0099EF2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65A04AB1ECECB5F0099EF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B65A04AC1ECECB5F0099EF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65A04AE1ECECB5F0099EF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1BAB72B093E16CDE930C99 /* Pods-BabyNappy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyNappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebert.BabyNappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B65A04AF1ECECB5F0099EF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B1AAE6F4564AE8BE7B1BA2 /* Pods-BabyNappy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyNappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hebert.BabyNappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65A048E1ECECB5E0099EF2F /* Build configuration list for PBXProject "BabyNappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A04AB1ECECB5F0099EF2F /* Debug */,
+				B65A04AC1ECECB5F0099EF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65A04AD1ECECB5F0099EF2F /* Build configuration list for PBXNativeTarget "BabyNappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A04AE1ECECB5F0099EF2F /* Debug */,
+				B65A04AF1ECECB5F0099EF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65A048B1ECECB5E0099EF2F /* Project object */;
+}
